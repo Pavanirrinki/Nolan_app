@@ -1,0 +1,289 @@
+/* Home css */
+
+.wallpaper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("./assests/hero_1.webp");
+  width: 100%;
+  height: 120%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: transparent;
+  z-index: -1;
+}
+
+/* CSS for wallpaper2 */
+.wallpaper2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 450%;
+background-color: black; 
+color: transparent;
+  z-index: -2;
+}
+.margin-right{
+  margin-right: 15px;
+}
+.background-color{
+  background-color: black;
+ width: 100%;
+}
+.background-color1{
+  background-color: #202327;
+  width: 100%;
+}
+.background-color2{
+  background-color: #171a1f;
+  width: 100%;
+}
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
+}
+.logo{
+ height: 220px;
+ width :370px; 
+margin-top: 10px;
+}
+.background-color-black{
+  background-color: #171a1f;
+  height: 300%;
+
+}
+.custom-width{
+  width: 55%;
+}
+.aboutus-container{
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 767px) {
+  .custom-width {
+    width: 100%;
+   }
+   .aboutus-container{
+    display: block;
+   }
+   .blogs-container-black-background{
+    height: 1100% !important;
+   }
+   .wallpaper2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 550%;
+  background-color: black; 
+  color: transparent;
+    z-index: -2;
+  }
+}
+
+/* pricing-section */
+.wallpaper-pricing{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("./assests/blog_item_hero_bg.webp");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: transparent;
+  z-index: -1;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+
+}
+
+.button {
+  padding: 10px 20px;
+  margin: 0;
+  border: none;
+  background-color: #202327;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+ }
+ .button:first-child {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.button:last-child {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.button_click{
+  background-color: red;
+}
+
+.pricing-cards{
+  margin-top:60px;
+  border:none;
+  width:295px;
+  padding:40px;
+  background-color:black;
+border-radius:20px;
+  margin-left:5px;
+}
+.wallpaper3{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 310%;
+background-color: black; 
+color: transparent;
+  z-index: -2;
+}
+@media (max-width: 767px){
+  .pricing-cards{
+    margin-top:60px;
+    border:none;
+    width:90%;
+    padding:40px;
+    background-color:black;
+  border-radius:20px;
+    margin-left:20px;
+    text-align: center;
+  }
+
+  .wallpaper3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 770%;
+  background-color: black; 
+  color: transparent;
+    z-index: -2;
+  }
+}
+
+
+/* Blogs css */
+
+.Blogs-wallpaper{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("./assests/blog_hero.webp");
+  width: 100%;
+  height: 120%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: transparent;
+  z-index: -1;
+}
+
+/* Login and Signup */
+.login-backgroung{
+  
+  background-image: url("./assests/login_hero.webp");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: transparent;
+}
+.opacity_0{
+ opacity:0.7;
+}
+.opacity_01{
+  opacity: 1 !important;
+}
+
+/* //Separate Blogs */
+
+#profile{
+  display: none;
+}
+.label{
+  border:1px solid #D4DBD0;
+  padding: 10px 05px;
+border-radius: 15px;
+}
+
+#profile2{
+  display: none;
+}
+.margin_top{
+  margin-top: 20%;
+}
+
+/* Dashboard css */
+.Dashboard_wallpaper{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("./assests/latest_scripts_hero.webp");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: transparent;
+  z-index: -1;
+
+}
+.content-wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* //profilecard css */
+.margin_top_profile{
+  margin-top: 10%;
+}
+
+.white-table {
+  width: 90%;
+ 
+  border-collapse: collapse;
+  background-color: white; 
+ 
+}
+
+.white-table th, .white-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+
+}
+
+.white-table th {
+  background-color: #f2f2f2; 
+
+}
+.white-table td {
+  border: none; 
+}
+.margin_80{
+margin-left:80px;
+}
+@media (max-width: 767px){
+  .margin_top_profile{
+    margin-top: 30%;
+  }
+  .margin_80{
+    margin-left:0px;
+    }
+}
+
+/* //SEPARATE BLOG1 */
